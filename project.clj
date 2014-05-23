@@ -1,3 +1,3 @@
-(defproject time "0.2.0"
-  :dependencies [[clj-time "0.6.0"]
-                 [org.clojure/clojure "1.6.0-alpha3"]])
+(defproject com.eoneq/time "0.2.2"
+  :dependencies [[clj-time "0.7.0"]
+                 [org.clojure/clojure "1.6.0"]])
