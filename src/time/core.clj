@@ -1,6 +1,6 @@
 (ns time.core
   (:require [clj-time.coerce :as co]
-            [clj-time.core   :as t]))
+            [clj-time.core :as t]))
 
 (defn n-days-ago
   "dt, n days ago from local date time"
