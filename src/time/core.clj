@@ -42,3 +42,9 @@
   (let [time-zone (t/time-zone-for-id str-time-zone)
         dt (t/to-time-zone (t/now) time-zone)]
     (dt->date-map dt)))
+
+(defn within?
+  "dt lies within (inclusive) interval"
+  [dt interval]
+  (or (t/within? interval dt)
+      (= (t/end interval) dt)))
