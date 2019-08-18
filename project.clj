@@ -6,4 +6,4 @@
 
   :middleware [lein-tools-deps.plugin/resolve-dependencies-with-deps-edn]
   
-  :plugins [[lein-tools-deps "0.4.1"]])
+  :plugins [[lein-tools-deps "0.4.5"]])

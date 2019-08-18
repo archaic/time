@@ -1,4 +1,4 @@
-{:deps {clj-time {:mvn/version "0.14.4"}
-        org.clojure/clojure {:mvn/version "1.9.0"}}
+{:deps {clj-time {:mvn/version "0.15.2"}
+        org.clojure/clojure {:mvn/version "1.10.1"}}
 
  :paths ["src"]}
